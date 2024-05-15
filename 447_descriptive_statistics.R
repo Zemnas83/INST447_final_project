@@ -1,10 +1,13 @@
-# importing libraries
+degreesdata = read.csv("degrees-that-pay-back.csv")
+collegedata = read.csv("salaries-by-college-type.csv")
+regiondata = read.csv("salaries-by-region.csv")
+
+head(degreesdata)
+head(collegedata)
+head(regiondata)
+
 library(tidyverse)
 library(ggpubr)
 library(rstatix)
 
-degreesdata = read.csv("/data/degrees-that-pay-back.csv")
-collegedata = read.csv("/data/salaries-by-college-type.csv")
-regiondata = read.csv("/data/salaries-by-region.csv")
-
-
+salarydata = read.csv()
